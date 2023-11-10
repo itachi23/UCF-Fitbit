@@ -27,8 +27,8 @@ token_worksheet = token_workbook.active
 user_sheet = user_workbook.active
 for row in user_sheet.iter_rows(min_row=13,max_row=13,values_only=True):
     row_data = [row[0],row[1],"","","",""]
-    authorization_code = "24be215e08a3a13dcddc06e393a53896905af11c"
-    code_verifier = "4q1h0q0j382v3d1c5n455x6l1o675n1a2d0t203g2r6e2f6i3t110o6h3q6x1u2d723e4d2r6z013b2o6w5o1q393l302x1o3o3v704k5b5s5l2x3f445s3x4k1j5q71"
+    authorization_code = ""
+    code_verifier = ""
     data = get_tokens(authorization_code,code_verifier)
     if(data is None):
         print("could not get tokens")
