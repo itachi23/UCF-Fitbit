@@ -1,0 +1,2 @@
+sync_status_column_names = ["user_name","mail_id","last_sync_date","status_checked_at","time_difference_in_days","status"]
+token_workbook_column_names = ["Name", "mail_id","refresh_token", "access_token","user_id","created_at"]
